@@ -125,6 +125,13 @@ public class ArraysUtility {
         return reverse;
     }
 
+    public static int[] addTwoElement(int[] array, int firstE, int secondE){
+
+        int[] newArr = Arrays.copyOf(array,array.length+2);
+        newArr[newArr.length-1] = firstE;
+        newArr[newArr.length-2] = secondE;
+        return newArr;
+    }
 
 
     public static int[] addElement(int[] array, int element){

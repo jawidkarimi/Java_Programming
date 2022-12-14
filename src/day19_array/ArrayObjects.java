@@ -11,7 +11,7 @@ public class ArrayObjects {
         int[] arr3 = arr2;
 
         arr1[0] = 1000;
-        arr2[2] = 3000;
+        arr2[0] = 3000;
 
         System.out.println(Arrays.toString(arr1) );
         System.out.println(Arrays.toString(arr2) );

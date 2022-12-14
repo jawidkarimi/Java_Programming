@@ -2,13 +2,14 @@ package day23_arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class ArrayListMethods {
 
     public static void main(String[] args) {
 
         int[] array = {1, 2, 3, 4, 5};
-
         array[0] = 100;
 
         System.out.println(Arrays.toString(array));
@@ -22,7 +23,6 @@ public class ArrayListMethods {
         groceriesList.add("Cooking oil");
 
         System.out.println(groceriesList);
-
        // groceriesList[2] = "Oranges";
         groceriesList.set(2, "Oranges");
 
@@ -76,6 +76,8 @@ public class ArrayListMethods {
         names.add("Sumeye");
 
         System.out.println(  names.indexOf("Vasyl") );
+
+
         System.out.println( names.lastIndexOf("Vasyl") );
 
         System.out.println( names.lastIndexOf("Sumeye") );
@@ -109,8 +111,8 @@ public class ArrayListMethods {
         System.out.println(l1);
         System.out.println(l2);
 
+        System.out.println("Compare");
         System.out.println(l1 == l2);
-
         System.out.println(l1.equals(l2));
 
 
@@ -125,10 +127,11 @@ public class ArrayListMethods {
         n2.add(30);
         n2.add(10);
         n2.add(20);
+        Collections.sort(n2);
 
+        System.out.println("Compare2");
         System.out.println("n1 = " + n1);
         System.out.println("n2 = " + n2);
-
         System.out.println(n1.equals(n2));
 
 
@@ -140,15 +143,6 @@ public class ArrayListMethods {
 
         System.out.println(n1.isEmpty());
         System.out.println(n2.isEmpty());
-
-
-
-
-
-
-
-
-
 
     }
 

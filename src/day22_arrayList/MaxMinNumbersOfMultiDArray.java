@@ -1,5 +1,8 @@
 package day22_arrayList;
 
+import java.sql.SQLOutput;
+import java.util.*;
+
 public class MaxMinNumbersOfMultiDArray {
 
 
@@ -31,6 +34,35 @@ public class MaxMinNumbersOfMultiDArray {
 
         System.out.println("Maximum number is: " + max);
         System.out.println("Minimum number is: " + min);
+
+
+        System.out.println("****************By Stream *******************");
+        int [] number = {1,2,3,4,5,6,7};
+        int max1 = Arrays.stream(number)
+                .max()
+                .getAsInt();
+        int min1 = Arrays.stream(number).min().getAsInt();
+
+        System.out.println("Max: " + max1);
+        System.out.println("Min: " + min1);
+
+        System.out.println("____________________________________________________");
+
+        IntSummaryStatistics stats = Arrays.stream(number).summaryStatistics();
+        System.out.println(stats.getMax());
+        System.out.println(stats.getMin());
+
+        System.out.println("Max and Min from Arrays List by Stream");
+
+        List<Integer> num1 = Arrays.asList(1,2,3,4,5,6,7);
+        Integer max3 = num1.stream()
+                .max(Comparator.comparing(Integer::valueOf)).get();
+        Integer min3= num1.stream()
+                .min(Comparator.comparing(Integer::valueOf)).get();
+        System.out.println("Max: "+ max3);
+        System.out.println("Min: "+ min3);
+
+
 
 
     }

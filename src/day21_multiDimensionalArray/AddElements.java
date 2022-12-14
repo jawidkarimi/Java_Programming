@@ -8,6 +8,7 @@ public class AddElements {
 
     public static void main(String[] args) {
 
+
         int[] array = {10, 20, 30, 40, 50, 60, 70, 80};
         int element = 90;
 
@@ -20,9 +21,11 @@ public class AddElements {
 
         int[] numbers = { 100, 90, 80, 70, 60};
 
+        numbers = ArraysUtility.addTwoElement(numbers, 70, 110);
+
         System.out.println(Arrays.toString(numbers));
 
-        numbers = ArraysUtility.addElement(numbers, 50);
+        //numbers = ArraysUtility.addElement(numbers, 50);
 
         System.out.println(Arrays.toString(numbers));
 

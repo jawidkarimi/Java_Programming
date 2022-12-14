@@ -22,7 +22,6 @@ public class CollectionsUtility {
         items.addAll(Arrays.asList("Eggs", "Potato",  "Milk", "Tomato", "Rice", "Orange", "Strawberry", "Blueberry", "Paper towels"));
 
         Collections.sort(items);
-
         System.out.println(items);
 
         System.out.println("---------------------------------------------------------------");

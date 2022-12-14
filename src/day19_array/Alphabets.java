@@ -9,6 +9,14 @@ public class Alphabets {
         char[] ascending = new char[26]; // index: 0~25
         char[] descending = new char[26]; // index: 0~25
 
+
+        //to string()
+        //equals()
+        //sort()
+        //copyOf()
+        //CopyOfRange()
+
+
         for (int i = 0, j = 'A', k ='Z' ; i < ascending.length; i++, j++, k--) {
             ascending[i] = (char) j; // A ~ Z
             descending[i] = (char) k; // Z ~ A

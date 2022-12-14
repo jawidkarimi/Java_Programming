@@ -34,7 +34,7 @@ public class BulkOperations {
         System.out.println("-----------------------------------------");
 
         ArrayList<String> students = new ArrayList<>();
-        students.addAll(  Arrays.asList("Gadir", "Hasan", "Abidullah", "Bilal" )   );
+        students.addAll(Arrays.asList("Gadir", "Hasan", "Abidullah", "Bilal" )   );
 
         System.out.println(students);
 
@@ -48,7 +48,7 @@ public class BulkOperations {
 
         ArrayList<Integer> l1 = new ArrayList<>( Arrays.asList(nums) );
 
-    //    l1.addAll(  Arrays.asList(nums) );
+    //  l1.addAll(  Arrays.asList(nums) );
 
         System.out.println(l1);
 
@@ -61,9 +61,9 @@ public class BulkOperations {
 
         boolean hasAlena = employeesList.contains("Alena");
 
-        boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );
+        boolean hasAlenaGadir = employeesList.containsAll(Arrays.asList("Alena", "Gadir") );
 
-        boolean hasMuhtarAliKuzzat = employeesList.containsAll( Arrays.asList("Muhtar", "Ali", "Kuzzat") );
+        boolean hasMuhtarAliKuzzat = employeesList.containsAll(Arrays.asList("Muhtar", "Ali", "Kuzzat") );
 
         System.out.println("hasAlena = " + hasAlena);
         System.out.println("hasAlenaGadir = " + hasAlenaGadir);
@@ -75,7 +75,7 @@ public class BulkOperations {
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll( Arrays.asList(10, 10, 20, 30, 40, 50, 60, 70, 10, 10, 10, 10, 20, 20, 20, 20) );
 
-        list.removeAll( Arrays.asList(10, 20) );
+        list.removeAll(Arrays.asList(10, 20) );
 
         System.out.println(list);
 
@@ -84,7 +84,7 @@ public class BulkOperations {
         ArrayList<String> developers = new ArrayList<>();
         developers.addAll( Arrays.asList(  "Alena", "Muhtar", "Gadir", "Ali", "Khashayar", "Madiyar", "Muhtar", "Muhtar" , "Alena")  );
 
-        developers.retainAll(  Arrays.asList("Alena", "Khashayar", "Muhtar") );
+        developers.retainAll(Arrays.asList("Alena", "Khashayar", "Muhtar") );
 
         System.out.println(developers);
 
@@ -97,7 +97,6 @@ public class BulkOperations {
 
      //   groceriesList.retainAll( Arrays.asList("Eggs", "Potato",  "Milk", "Tomato") );
           groceriesList.removeAll( Arrays.asList("Rice", "Orange", "Strawberry", "Blueberry", "Paper towels") );
-
         System.out.println(groceriesList);
 
 

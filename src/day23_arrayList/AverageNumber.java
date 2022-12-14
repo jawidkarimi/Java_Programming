@@ -22,7 +22,6 @@ public class AverageNumber {
             sum += each;
         }
 
-
         double average = sum / (double)list.size();
 
         System.out.println("average = " + average);

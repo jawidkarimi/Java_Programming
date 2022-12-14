@@ -1,6 +1,8 @@
 package day21_multiDimensionalArray;
 
 
+import java.util.Arrays;
+
 public class RemoveExtraSpaces {
 
     public static void main(String[] args) {
@@ -8,6 +10,8 @@ public class RemoveExtraSpaces {
         String str = "  Hello world      I      love      Java    ";
 
         String[] words = str.split(" ");
+
+        System.out.println(Arrays.toString(words));
 
         str = "";
 

@@ -24,7 +24,7 @@ public class ArrayPractice2 {
 
         System.out.println("---------------------------------------------------------");
 
-        int[] arr2 = new int[20]; //index: 0 ~ 99
+        int[] arr2 = new int[100]; //index: 0 ~ 99
 
         /*
         for (int i = 0 , j = 100; i < arr2.length; i++, j--) {

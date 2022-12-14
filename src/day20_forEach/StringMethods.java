@@ -10,6 +10,10 @@ public class StringMethods {
 
         String str = "Cydeo School";
 
+        String[] str9 = str.split(" ");
+        System.out.println(Arrays.toString(str9));
+
+
         char[] ch = str.replace(" ", "").toCharArray();
 
         System.out.println( Arrays.toString(ch) );
@@ -20,6 +24,7 @@ public class StringMethods {
         String str2 = "Today is a great day to learn java";
 
         String[] words = str2.split(" ");
+
 
         System.out.println(Arrays.toString(words));
 

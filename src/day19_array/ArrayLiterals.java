@@ -26,7 +26,7 @@ public class ArrayLiterals {
 
         int n = 1;
 
-        System.out.println( days[n-1] );
+        System.out.println( days[days.length-1] );
 
         System.out.println("----------------------------------------------------------");
 

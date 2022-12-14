@@ -11,7 +11,7 @@ public class Dog {
 
                         //"Max" ,      "Husky",         'M",      4 ,       "small",      "White"
     public void setInfo(String name, String breed, char gender, int age, String size, String color){
-        this.name = name;  // this keyword is used for calling the instance variable name
+        this. name = name;  // this keyword is used for calling the instance variable name
         this.breed =  breed;
         this.gender = gender;
         this.age = age;

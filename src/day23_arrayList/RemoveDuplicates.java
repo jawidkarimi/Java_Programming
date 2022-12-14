@@ -1,6 +1,6 @@
 package day23_arrayList;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class RemoveDuplicates {
 
@@ -13,8 +13,13 @@ public class RemoveDuplicates {
         names.add("Sumeye");
         names.add("Ali");
         names.add("Sumeye");
+// [Vasyl, Vasyl, Sumeye, Sumeye, Ali, Sumeye]
 
-        // [Vasyl, Vasyl, Sumeye, Sumeye, Ali, Sumeye]
+
+//        Set<String> sst=new TreeSet<>(names);
+//        System.out.println(sst);
+
+
 
         System.out.println(names);
 
