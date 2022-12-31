@@ -57,7 +57,7 @@ public class StringMethods2 {
 
         System.out.println(today);
 
-        //----------------------------------------
+         //----------------------------------------
 
         String email = "CydeoSchoolJavaProgramming@yahoo.com";
 

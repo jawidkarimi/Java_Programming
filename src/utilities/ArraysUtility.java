@@ -21,7 +21,6 @@ public class ArraysUtility {
         return arr3;
     }
 
-
     public static double[] merge(double[] arr1, double[] arr2){
 
         double[] arr3 = new double[arr1.length + arr2.length]; // to make sure that 3rd array has enough capacity to contain all the elements of arr1 and arr2
@@ -38,8 +37,7 @@ public class ArraysUtility {
 
         return arr3;
     }
-    
-    
+
     public static char[] merge(char[] arr1, char[] arr2){
 
         char[] arr3 = new char[arr1.length + arr2.length]; // to make sure that 3rd array has enough capacity to contain all the elements of arr1 and arr2
